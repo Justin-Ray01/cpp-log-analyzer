@@ -1,5 +1,6 @@
-Jan 31 12:01:10 ubuntu sshd[1234]: Failed password for invalid user admin from 192.168.1.50 port 55210 ssh2
-Jan 31 12:01:12 ubuntu sshd[1234]: Failed password for root from 10.0.2.15 port 4444 ssh2
-Jan 31 12:01:14 ubuntu sshd[1234]: Failed password for invalid user test from 192.168.1.50 port 55211 ssh2
-Jan 31 12:01:16 ubuntu sudo: pam_unix(sudo:auth): authentication failure; user=vmuser
-Jan 31 12:01:18 ubuntu sshd[1234]: Failed password for root from 10.0.2.15 port 4445 ssh2
+Jan 31 12:00:01 ubuntu sshd[1111]: Failed password for root from 10.0.2.15 port 5551 ssh2
+Jan 31 12:00:03 ubuntu sshd[1111]: Failed password for invalid user admin from 192.168.1.50 port 5552 ssh2
+Jan 31 12:00:06 ubuntu sshd[1111]: Failed password for root from 10.0.2.15 port 5553 ssh2
+Jan 31 12:00:09 ubuntu sshd[1111]: Failed password for test from 192.168.1.50 port 5554 ssh2
+Jan 31 12:02:00 ubuntu sshd[1234]: Accepted password for vmuser from 10.0.2.15 port 5555 ssh2
+Jan 31 12:02:30 ubuntu sudo: pam_unix(sudo:auth): authentication failure; logname=vmuser uid=1000 euid=0 tty=/dev/pts/0 ruser=vmuser rhost= user=vmuser
