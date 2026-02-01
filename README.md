@@ -17,7 +17,7 @@ A lightweight C++ command line tool that pareses Linux-style authentication logs
 
 
 - ## Build & Run
-- ### Build
-- '''bash
-- g++ -std=c++17 -O2 -Wall -Wextra -o log_analyzer src/main.cpp
-./log_analyzer sample-logs/auth_sample.log
+- ### Linux (g++)
+```bash
+g++ -std=c++17 -O2 -Wall -Wextra -o log_analyzer src/main.cpp
+./log_analyzer sample-logs/auth_sample.log --alert 2
