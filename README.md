@@ -11,9 +11,9 @@ A lightweight C++ command line tool that pareses Linux-style authentication logs
   -top targeted usernames
 
 ## Repo Structure
--'src/'-C++ source code
--'sample-logs/'- demo log files for testing
--'docs/'- design notes and future roadmap
+- 'src/'-C++ source code
+- 'sample-logs/'- demo log files for testing
+- 'docs/'- design notes and future roadmap
 
 
 - ## Build & Run
