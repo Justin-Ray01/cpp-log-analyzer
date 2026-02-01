@@ -31,6 +31,9 @@ This tool converts raw auth log lines into actionable results in seconds.
 - `docs/` — design notes and roadmap
 
 ---
+##Example Output
+
+<img width="1051" height="446" alt="image" src="https://github.com/user-attachments/assets/5d4eee7f-714b-4caf-82c6-47b112309992" />
 
 ## Build & Run
 
