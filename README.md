@@ -10,13 +10,14 @@ A lightweight C++ command line tool that pareses Linux-style authentication logs
   -top IPs
   -top targeted usernames
 
-## Why this matters
-Log review is a core skill for any analyst or system administrator. This project demonstrates:
-- file I/O
-- parsing and data structures
-- security-focused reporting
+## Repo Structure
+-'src/'-C++ source code
+-'sample-logs/'- demo log files for testing
+-'docs/'- design notes and future roadmap
+
 
 - ## Build & Run
 - ### Build
 - '''bash
-- g++ -std=c++17 -02 -Wall -Wextra -o log_analyzer src/main.cpp
+- g++ -std=c++17 -O2 -Wall -Wextra -o log_analyzer src/main.cpp
+./log_analyzer sample-logs/auth_sample.log
